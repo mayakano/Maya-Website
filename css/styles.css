@@ -48,9 +48,12 @@ html, button, input, select, textarea { font-family: 'Varela Round', sans-serif;
 /* * Addresses margins handled incorrectly in IE 6/7. */
 body { margin: 0; font-family: 'Varela Round', sans-serif; }
 
-
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 /* ============================================================================
-MAYA'S GORGEOUS SELFIE
+IMAGE
 =============================================================================*/
 
 .selfie :hover {
@@ -142,11 +145,23 @@ q { quotes: none; }
     font-size: 45px; 
     line-height: 70px;
 }
+
+.web-styling {
+    font-size: 40px; 
+    margin-top: -10px;
+}
+
 @media only screen and (max-width: 600px) {
     .quote {
         font-size: 25px;
         line-height: 40px;
     }
+
+    .web-styling {
+        font-size: 30px; 
+        margin-top: 10px;
+    }
+    
 }
 /* * Addresses `quotes` property not supported in Safari 4. */
 q:before, q:after { content: ''; content: none; }
