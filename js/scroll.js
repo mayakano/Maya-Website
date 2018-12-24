@@ -90,7 +90,7 @@
             panels.filter('.out').animate({
                 'top': 0,
                 'bottom': 0
-            }, 200);
+            }, 900);
         }
 
         //_________________ Initialization

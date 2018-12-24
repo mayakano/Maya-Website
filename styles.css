@@ -156,21 +156,6 @@ dd { margin: 0 0 0 40px; }
 menu, ol, ul { padding: 0 0 0 40px; }
 /* * Corrects list images handled incorrectly in IE 7. */
 nav ul, nav ol { list-style: none; list-style-image: none; }
-
-.mobile-menu {
-    display: none;
-}
-
-@media only screen and (max-width: 600px) {
-    .mobile-menu {
-        display: block;
-    }
-    #myDropdown {
-        display: none;
-    }
-}
-
-
 /* ==========================================================================
 Embedded content
 ========================================================================== */
@@ -304,7 +289,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.2)),url('../img/laptop-image.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 10px 0 210px 0; height: auto; }
+.hero { background: linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.2)),url('../img/laptop-image-min.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 10px 0 210px 0; height: auto; }
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
@@ -545,9 +530,6 @@ button{ outline: none; }
 .show {display:block;}
 
 @media screen and (max-width:520px) {
-    .show {
-        display: none!important;
-    }
 	.dropbtn, button, .dropdown, .dropdown-content, .show, .dropdown-content a  { margin-left: 17px;}
 }
 
